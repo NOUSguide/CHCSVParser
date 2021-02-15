@@ -38,7 +38,6 @@
 		55B99320160E376100D6548A /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
 		55C61C60199C0B4600770AA2 /* Issue65.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Issue65.csv; sourceTree = "<group>"; };
 		8DD76FA10486AA7600D96B5E /* CHCSVParser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CHCSVParser; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9022B6F2563F16D00C7CC3B /* tmp.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = tmp.xcconfig; sourceTree = "<group>"; };
 		A9CB465D240A9AFB00934BBE /* CHCSVParserKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CHCSVParserKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9CB465F240A9AFB00934BBE /* CHCSVParserKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHCSVParserKit.h; sourceTree = "<group>"; };
 		A9CB4660240A9AFB00934BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -75,7 +74,6 @@
 		08FB7794FE84155DC02AAC07 /* CHCSVParser */ = {
 			isa = PBXGroup;
 			children = (
-				A9022B6F2563F16D00C7CC3B /* tmp.xcconfig */,
 				08FB7795FE84155DC02AAC07 /* Source */,
 				5560A19D1737433900DDD1D3 /* Unit Tests */,
 				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
@@ -456,7 +454,6 @@
 		};
 		A9CB4662240A9AFB00934BBE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9022B6F2563F16D00C7CC3B /* tmp.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -517,7 +514,6 @@
 		};
 		A9CB4663240A9AFB00934BBE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9022B6F2563F16D00C7CC3B /* tmp.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
